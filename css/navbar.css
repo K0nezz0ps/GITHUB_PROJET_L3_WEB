@@ -75,4 +75,51 @@ nav{
 			nav li.left-navbar a:hover , li.right-navbar a:hover{
 				background: hsla(0,0%,100%,.4);
 			}
-
+			nav li.dropdown{
+				float:left;
+			}
+			nav li.dropdown .dropdown-display{
+				position:absolute;
+				display:none;
+				background-color :#6C6969;
+				width:170px;
+				height:200px;
+			}
+			nav li.dropdown:hover .dropdown-display{
+				display:flex;
+				padding-right:25px;
+				padding-left:25px;
+				padding-top: 10px;
+			}
+			nav li.left-navbar a, li.right-navbar a{
+				color:#000;
+				font-size: 1.5em;
+				font-weight: bold;
+				margin:3px;
+				cursor:pointer;
+			}
+			nav li.left-navbar a:hover , li.right-navbar a:hover{
+				background: hsla(0,0%,100%,.4);
+			}
+			nav li.dropdown:hover .dropdown-display input[type="email"],
+			nav li.dropdown:hover .dropdown-display input[type="password"]{
+				width:100px;
+				height:20px; 
+				margin-top: 10px;
+			}
+			nav li.dropdown:hover .dropdown-display input[type="submit"]{
+				width:60px;
+				height:20px; 
+				background-color: #000;
+				color:#FFF;
+				border-color:#000;
+				cursor:pointer;
+			}
+			nav li.dropdown .dropdown-display form:before{
+				content:"";
+				 display: block;
+			}
+			nav li.dropdown .dropdown-display *:before{
+				content:"";
+				 display: block;
+			}
