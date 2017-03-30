@@ -1,0 +1,13 @@
+/*
+*
+*	Anthony BOURASSEAU
+*	30/03/2017
+*	form.css
+*/
+
+.form-label {
+	width:25%;
+	display:block;
+	float:left;
+	padding-left: 25%;
+}

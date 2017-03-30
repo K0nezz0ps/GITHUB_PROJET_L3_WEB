@@ -1,0 +1,144 @@
+/*
+*
+*	Anthony BOURASSEAU
+*	27/03/2017
+*	navbar.css
+*/
+
+main{
+	margin-bottom: 35px;
+	margin-top: 110px;
+	width:85%;
+}
+
+main .container-element{
+	width:100%;
+	height: 100%;
+	word-break: break-all;
+	padding-bottom: 7px;
+}
+	main .high{
+		overflow:auto;
+	}
+	main .birth-main{	
+		width:33%;
+		background-color: #fefbd8;
+		float:right;
+	}
+		main .birth-main .description{
+			float:left;
+			word-wrap: break-word;
+			width:50%;
+			font-size:1em;
+			color:#000;
+		}
+			main .birth-main .description .prenom{
+				font-weight: bold;
+				font-size:1.2em;
+			}
+			main .birth-main .description .name{
+				font-weight: bold;
+				font-size:1.1em;
+			}
+			main .birth-main .description .link:before{
+				content:"";
+				display: block;
+			}
+			main .birth-main .description .link{
+				font-weight: bold;
+				font-size:1.1em;
+			}
+		main .birth-main .div-image{
+			width:50%;
+			display:flex;
+			float:right;
+			padding-bottom: 10px;
+		}
+			main .birth-main .div-image .image{
+				width:100px;
+				height: 100px;
+				margin:auto;
+			}
+
+	main .actualite{	
+		width:66%;
+		float:left;
+		background-color: #fefbd8;
+	}
+		 main .actualite .com-container{
+		 	float:left;
+		 	width:50%;
+		 }
+		 	main .actualite .last-com-title,
+		 	main .actualite .last-episode-title{
+		 		font-weight: bold;
+		 		font-size: 1em;
+		 	}
+		 main .actualite .episode-container{
+		 	float:right;
+		 	width:50%;
+		 }
+	main .serie{
+		width:100%;
+		background-color: #fefbd8;
+		margin-top:15px;
+	}
+		main .serie>h2{
+			    -webkit-margin-before: 0em;
+			    -webkit-margin-after: 0em;
+			    -webkit-margin-start: 0px;
+			    -webkit-margin-end: 0px;
+		}
+		main .serie	.container-element{
+			padding: 10px;
+			overflow: hidden;
+			text-align: center;
+			margin:auto;
+		}
+			main .serie .container-element .container-image{
+				height: 230px;
+				width:150px;
+				margin-right: 10px;
+				float:left;
+				background-color: #242424;
+				box-shadow: 5px 5px 12px #555;
+				margin-bottom: 10px;
+
+			}
+			main .serie .container-element .container-image:nth-first-child{
+				margin-left: 5px;
+			}
+			main .serie .container-element .container-image:nth-last-child{
+				margin-right: 5px;
+			}
+				.container-element .container-image .description{
+					color:#FFF;
+					font-weight: bold;
+					cursor:pointer;
+				}
+				.container-element .container-image img{
+					height: 150px;
+					width:120px;
+					margin-left:15px;
+					margin-right: 15px;
+					margin-top: 10px;
+					margin-bottom: 10px;
+					cursor:pointer;
+				}
+				.container-element .container-image img:hover{
+					border-style: solid;
+	    			border-width: 5px;
+	    			border-color: red;
+	    			margin-left:10px;
+					margin-right: 10px;
+					margin-top: 5px;
+					margin-bottom: 5px;
+				}
+	
+	main .inscription {
+		width: 100%;
+		background-color: #fefbd8;
+	}
+		main .inscription-mess {
+			text-align: center;
+		}

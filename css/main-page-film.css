@@ -1,0 +1,49 @@
+/*
+*
+*	Anthony BOURASSEAU
+*	27/03/2017
+*	navbar.css
+*/
+
+main .page-film-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+	main .main-page-film-left {
+		width: 270px;
+	}
+		main .main-page-film-left #page-film-img-top {
+			float:top;
+			border: 1px solid white;
+		}
+			main .page-film-img {
+				max-height: 360px;
+				max-width: 270px;
+			}
+		main .main-page-film-left #page-film-note {
+			float: bottom;
+			width: 270px;
+			border: 1px solid grey;
+			text-align: center;
+		}
+			main .main-page-film-left img {
+				width: 270px;
+			}
+
+	
+	main .main-page-film-right {
+		margin: 2%;
+	}
+		main  .main-page-film-right #page-film-description {
+			float: top;
+		}
+
+		main .main-page-film-rigth #page-film-synopsis {
+			float: bottom;
+		}
+
+	
+
+	

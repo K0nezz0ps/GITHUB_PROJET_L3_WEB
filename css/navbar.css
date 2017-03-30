@@ -1,0 +1,78 @@
+/*
+*
+*	Anthony BOURASSEAU
+*	27/03/2017
+*	navbar.css
+*/
+
+nav{
+	height: 100px;
+	width:100%;
+	position: fixed;
+	top:5px;
+	left:0px;
+}
+	nav>ul{
+		height: 100%;
+		width:85%;
+		background-color: #fecc00;
+	}
+		nav li.logo-li-navbar{
+			height: 50%;
+			float:left;
+		}
+		nav img.logo-img-navbar{
+			width:100px;
+			height:50px;
+			position:relative;
+		}
+		nav li.search-navbar{
+			height: 50%;
+			width:75%;
+			margin-bottom:5px;
+		}
+			nav form.form-search-navbar {
+				height: 50%;
+				width:85%;
+				text-align: center;
+			}
+				nav form.form-search-navbar > input.search-bar-navbar{
+					width: 200px;
+					height:40px;
+					margin:15px 5px 5px 0px;
+				}
+				nav form.form-search-navbar > button{
+					height:30px;
+					margin:15px 5px 5px 0px;
+					background-color: #000;
+					color:#FFF;
+					border-color: #000;
+					font-weight: bold;
+					cursor:pointer;
+				}
+		nav li.left-navbar{
+			height: 50%;
+			float:left;
+			margin-top:7px;	
+			position relative;
+			left:0px;
+		}
+		nav li.right-navbar{
+			height: 50%;
+			float:right;
+			margin-top:7px;	
+		}
+		nav li.right-navbar #connexion-button:hover{
+			/* Affichage du menu de connexion */
+		}
+			nav li.left-navbar a, li.right-navbar a{
+				color:#000;
+				font-size: 1.5em;
+				font-weight: bold;
+				margin:3px;
+				cursor:pointer;
+			}
+			nav li.left-navbar a:hover , li.right-navbar a:hover{
+				background: hsla(0,0%,100%,.4);
+			}
+

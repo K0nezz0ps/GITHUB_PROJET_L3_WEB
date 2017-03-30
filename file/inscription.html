@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>PROJET WEB L3 INFO</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<link rel="stylesheet" type="text/css" href="../css/main-home.css">
+            <link rel="stylesheet" type="text/css" href="../css/form.css"
+	</head>
+	<body>
+
+		<!-- NAVIGATION BAR -->
+		<nav>
+			<ul class="container">
+				<li class="logo-li-navbar">
+					<a href="#">
+						<img class="logo-img-navbar" src="../img/logo.jpg">
+					</a>
+				</li>
+				<li class="container search-navbar">
+					<form class="form-search-navbar container">
+						<input type="search" placeholder="Rechercher un film, une série ..." class="search-bar-navbar" name="the_search">
+						<button type="button">Rechercher</button>
+					</form>
+				</li>
+				<li class="left-navbar">
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="">Film</a>
+						</li>
+						<li>
+							<a href="">Série</a>
+						</li>
+					</ul>
+				</li>
+				<li class="right-navbar">
+					<ul>
+						<li>
+							<a href="#">Connexion</a>
+						</li>
+						<li>
+							<a href="#">Inscription</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- MAIN PART -->
+		<main class="container">
+			<header>
+				<h1> Inscription </h1>
+			</header>
+                  <article class="high">
+				<section class="inscription container">
+					<div class="container">
+                                    <p class="inscription-mess"> Veuillez saisir les informations demandées. Un e-mail de confirmation sera envoyé à l'adresse e-mail indiquée. </p>
+                                    <p class="inscription-mess"><i>(Tous les champs sont obligatoires)</i></p>
+                                    <form action="inscription.php" method="POST">
+                                          <label class="form-label" for="nom"> Nom </label><input class="form-input" id="nom" type="text" name="userLastName" placeholder="Nom"></br>
+                                          <label class="form-label" for"prenom"> Prénom </label><input class="form-input" id="prenom" type="text" name="userFirstName" placeholder="Prénom"></br>
+                                          <label class="form-label" for"email"> Adresse e-mail </label><input class="form-input" id="email" type="email" name="userEmail" placeholder="Adresse e-mail"></br>
+                                          <label class="form-label" for="genre"> Genre </label><select class="form-input" id="genre" name="userGender">
+                                                <option value="male">Homme</option>
+                                                <option value="female">Femme</option>
+                                                <option value="none">Non renseigné</option>
+                                          </select></br>
+                                          <label class="form-label" for="age"> Age </label><input class="form-input" id="age" type="number" min="1" max="150" name="userAge"></br>
+                                          <label class="form-label" for="mdp"> Mot de passe </label><input class="form-input" id="mdp" type="password" name="userPassword" placeholder="Mot de passe"></br>
+                                          <label class="form-label" for="mdpc"> Confirmer le mot de passe </label><input class="form-input" id="mdpc" type="password" name="userPasswordConfirm" placeholder="Mot de passe"> </br> </br>
+                                          <label style="visibility: hidden;" class="form-label"> label </label><input class="form-input" type="submit" value="Inscription !">
+                                    </form>
+                              </div>
+				</section>
+			</article>
+		</main>
+
+		<!-- FOOTER PART -->
+		<footer>
+			<ul class="container">
+				<li>
+					<a href="#">Anthony BOURASSEAU - copyright</a>
+				</li>
+				<li>
+					<ul>
+						<li class="facebook-header">
+							<a href="#">
+								<img src="">
+							</a>
+						</li>
+						<li>
+
+						</li>
+						<li class="Twiter-header">
+							<a href="#">
+								<img src="">
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

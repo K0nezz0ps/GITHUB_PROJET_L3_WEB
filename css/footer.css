@@ -1,0 +1,25 @@
+/*
+*
+*	Anthony BOURASSEAU
+*	27/03/2017
+*	header.css
+*/
+
+footer{
+	height: 30px;
+	width:100%;
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+}
+	footer>ul{
+		height: 100%;
+		width:85%;
+		background-color: #000;
+	}
+	footer a{
+		color:#FFF;
+		font-size: 1em;
+		font-weight: bold;
+		margin:3px;
+	}
