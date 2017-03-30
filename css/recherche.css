@@ -1,0 +1,19 @@
+
+
+
+
+main .recherche {
+      width: 100%;
+      background-color: #fefbd8;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+      main .recherche table {
+            width: 90%;
+            border: 1px solid black;
+            text-align: center;
+      }
+      main .recherche td {
+            border: 1px solid black;
+      }
