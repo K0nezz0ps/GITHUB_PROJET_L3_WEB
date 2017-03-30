@@ -32,7 +32,7 @@ main .page-film-container {
 				width: 270px;
 			}
 
-	
+
 	main .main-page-film-right {
 		margin: 2%;
 	}
@@ -44,6 +44,22 @@ main .page-film-container {
 			float: bottom;
 		}
 
-	
+		main .main-page-film-right #page-film-commentaire {
+			background-color: white;
+			height: 200px;
+			border: 1px solid black;
+		}
 
-	
+	main .main-page-film-other {
+		width: 30%;
+		background-color: white;
+		border: 1px solid black;
+		text-align: center;
+	}
+		main .main-page-film-other h2 {
+			width: 100%;
+		}
+		main .main-page-film-other div {
+			width: 100%;
+			height: 15%;
+		}
