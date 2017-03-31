@@ -78,24 +78,28 @@ main .container-element{
 		 	float:right;
 		 	width:50%;
 		 }
-	main .serie{
+	main .serie,
+	main .film{
 		width:100%;
 		background-color: #fefbd8;
 		margin-top:15px;
 	}
-		main .serie>h2{
+		main .serie>h2,
+		main .film>h2{
 			    -webkit-margin-before: 0em;
 			    -webkit-margin-after: 0em;
 			    -webkit-margin-start: 0px;
 			    -webkit-margin-end: 0px;
 		}
-		main .serie	.container-element{
+		main .serie	.container-element,
+		main .film	.container-element{
 			padding: 10px;
 			overflow: hidden;
 			text-align: center;
 			margin:auto;
 		}
-			main .serie .container-element .container-image{
+			main .serie .container-element .container-image,
+			main .film .container-element .container-image{
 				height: 230px;
 				width:150px;
 				margin-right: 10px;
@@ -105,18 +109,22 @@ main .container-element{
 				margin-bottom: 10px;
 
 			}
-			main .serie .container-element .container-image:nth-first-child{
+			main .serie .container-element .container-image:nth-first-child,
+			main .film .container-element .container-image:nth-first-child{
 				margin-left: 5px;
 			}
-			main .serie .container-element .container-image:nth-last-child{
+			main .serie .container-element .container-image:nth-last-child,
+			main .film .container-element .container-image:nth-last-child{
 				margin-right: 5px;
 			}
-				.container-element .container-image .description{
+				main .serie  .container-element .container-image .description,
+				main .film  .container-element .container-image .description{
 					color:#FFF;
 					font-weight: bold;
 					cursor:pointer;
 				}
-				.container-element .container-image img{
+				main .serie  .container-element .container-image img,
+				main .film .container-element .container-image img{
 					height: 150px;
 					width:120px;
 					margin-left:15px;
@@ -125,7 +133,8 @@ main .container-element{
 					margin-bottom: 10px;
 					cursor:pointer;
 				}
-				.container-element .container-image img:hover{
+				main .serie .container-element .container-image img:hover,
+				main .film .container-element .container-image img:hover{
 					border-style: solid;
 	    			border-width: 5px;
 	    			border-color: red;

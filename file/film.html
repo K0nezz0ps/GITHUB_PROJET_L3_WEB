@@ -42,8 +42,28 @@
 				</li>
 				<li class="right-navbar">
 					<ul>
-						<li>
+						<li class="dropdown">
 							<a href="#">Connexion</a>
+							<div class="dropdown-display">
+								<form>
+									<ul class="ul-connexion">
+										<li>
+											<h3> Connexion </h3>
+										</li>
+										<li>
+											<label for="emailco">Email:</label>
+											<input type="email" id="emailco" name="email">
+										</li>
+										<li>
+											<label for="passwordco"> Mot de passe :</label>
+											<input type="password" id="passwordco" name="password">
+										</li>
+										<li>
+											<input type="submit">
+										</li>
+									</ul>
+								</form>
+							</div>
 						</li>
 						<li>
 							<a href="inscription.html">Inscription</a>
@@ -56,11 +76,7 @@
 		<!-- MAIN PART -->
 		<main class="container">
 			<header>
-                  </br></br>
-			</header>
-                  <article class="high">
-				<section class="film-container container">
-                              <ul class="list-gender-film">
+                   <ul class="list-gender-film">
                                     <li><a class="arrondi" href="#">Comédie</a></li>
                                     <li><a class="arrondi" href="#">Sciences-Fictions</a></li>
                                     <li><a class="arrondi" href="#">Drame</a></li>
@@ -68,10 +84,11 @@
                                     <li><a class="arrondi" href="#">Guerre</a></li>
                                     <li><a class="arrondi" href="#">Fantaisie</a></li>
                               </ul>
-
-                              </br>
-
-                              <div class="container-element">
+			</header>
+                  <article class="film">
+				<h2>Serie</h2>
+				<section>
+					<div class="container-element">
 						<div class="container-image">
 							<img src="../img/300.jpg">
 							<span class="description">
@@ -103,7 +120,6 @@
 							</span>
 						</div>
 					</div>
-
 				</section>
 			</article>
 		</main>
