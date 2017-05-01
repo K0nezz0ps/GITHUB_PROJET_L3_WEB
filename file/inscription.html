@@ -10,6 +10,7 @@
             <link rel="stylesheet" type="text/css" href="../css/form.css">
 		<link rel="stylesheet" type="text/css" href="../css/recherche.css">
 		<script src="../js/jquery/jquery-3.2.0.min.js"></script>
+		<script src="../js/inscription.js"></script>
 	</head>
 	<body>
 
@@ -84,6 +85,91 @@
                                     <p class="inscription-mess"> Veuillez saisir les informations demandées. Un e-mail de confirmation sera envoyé à l'adresse e-mail indiquée. </p>
                                     <p class="inscription-mess"><i>(Tous les champs sont obligatoires)</i></p>
                                     <form action="inscription.php" method="POST">
+
+							<table align="center">
+								<tr>
+									<td>
+										<label align="right" for="nom"> Nom :</label>
+									</td>
+									<td>
+										<input id="nom" type="text" name="userLastName" placeholder="Nom">
+									</td>
+									<td>
+										<p id="nameError" style="color: red;"> Nom incorrect. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label align="right" for="prenom"> Prénom :</label>
+									</td>
+									<td>
+										<input id="prenom" type="text" name="userFirstName" placeholder="Prenom">
+									</td>
+									<td>
+										<p id="firstNameError" style="color: red;"> Prénom incorrect. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label align="right" for="email"> Email :</label>
+									</td>
+									<td>
+										<input id="email" type="email" name="userEmail" placeholder="E-mail">
+									</td>
+									<td>
+										<p id="emailError" style="color: red;"> E-mail incorrect. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label align="right" for="genre"> Genre :</label>
+									</td>
+									<td>
+										<select id="genre" name="userGender">
+			                                                <option value="male">Homme</option>
+			                                                <option value="female">Femme</option>
+			                                                <option value="none">Non renseigné</option>
+			                                          </select>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label align="right" for="age"> Age </label>
+									</td>
+									<td>
+										<input id="age" type="number" min="1" max="150" name="userAge">
+									</td>
+									<td>
+
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label align="right" for="mdp"> Mot de passe :</label>
+									</td>
+									<td>
+										<input id="mdp" type="password" name="userPassword" placeholder="Password">
+									</td>
+									<td>
+
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label align="right" for="mdp2"> Confirmer le mot de passe :</label>
+									</td>
+									<td>
+										<input id="mdp2" type="password" name="userPasswordConfirm" placeholder="Confirm password">
+									</td>
+									<td>
+										<p id="passwordError" style="color: red;"> Les mots de passe sont différent ! </p>
+									</td>
+								</tr>
+							</table>
+
+						<!--
                                           <label class="form-label" for="nom"> Nom </label><input class="form-input" id="nom" type="text" name="userLastName" placeholder="Nom"><br>
                                           <label class="form-label" for="prenom"> Prénom </label><input class="form-input" id="prenom" type="text" name="userFirstName" placeholder="Prénom"><br>
                                           <label class="form-label" for="email"> Adresse e-mail </label><input class="form-input" id="email" type="email" name="userEmail" placeholder="Adresse e-mail"><br>
@@ -96,7 +182,8 @@
                                           <label class="form-label" for="mdp"> Mot de passe </label><input class="form-input" id="mdp" type="password" name="userPassword" placeholder="Mot de passe"><br>
                                           <label class="form-label" for="mdpc"> Confirmer le mot de passe </label><input class="form-input" id="mdpc" type="password" name="userPasswordConfirm" placeholder="Mot de passe"> <br> <br>
                                           <label style="visibility: hidden;" class="form-label"> label </label><input class="form-input" type="submit" value="Inscription !">
-                                    </form>
+						-->
+						</form>
                               </div>
 				</section>
 			</article>
