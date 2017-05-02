@@ -1,0 +1,3 @@
+git add <mes_fichiers/dossiers>
+git commit -m "mon_message"
+git push origin master

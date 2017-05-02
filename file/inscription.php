@@ -1,3 +1,9 @@
+<?php
+		require_once "./php/connexion.php";
+
+		// Vérification de l'entrée d'arguments via le formulaire
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
